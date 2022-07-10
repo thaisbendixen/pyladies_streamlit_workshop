@@ -9,7 +9,7 @@ Please install python 3.8
 
 Clone this repository and go into the project directory
 ```c
-git clone https://github.com/thaisbendixen/streamlit_digit_classifier
+git clone git@github.com:thaisbendixen/pyladies_streamlit_workshop.git
 
 cd streamlit_digit_classifier
 ```
