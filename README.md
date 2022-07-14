@@ -21,7 +21,7 @@ git clone git@github.com:thaisbendixen/pyladies_streamlit_workshop.git
 cd pyladies_streamlit_workshop
 ```
 
-Create a virtual environment or use the devcontainer. Pleas ask mentors at the workshop if you need help.
+Create a virtual environment or use the [devcontainer](https://github.com/thaisbendixen/pyladies_streamlit_workshop/blob/main/.devcontainer/devcontainer.json). Please ask mentors at the workshop if you need help.
 
 Next install requirements:
 ```bash
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 # 🤸‍♀️ Streamlit playground
 
 First we start by exploring the streamlit capabilities, by building a few small web apps. To create your 
-app please use [my_first_app.py](https://github.com/thaisbendixen/pyladies_streamlit_workshop/tree/main/my_first_app.py).
+app please use [my_first_app.py](https://github.com/thaisbendixen/pyladies_streamlit_workshop/blob/main/streamlit_playground/my_first_app.py).
 
 To build your first app add the following lines to the file mentioned above:
 ```
@@ -46,7 +46,7 @@ streamlit run streamlit_playground/my_first_app.py
 ```
 
 The above command will open a window in your browser with your web app. You can edit the 
-[my_first_app.py](https://github.com/thaisbendixen/pyladies_streamlit_workshop/blob/main/my_first_app.py)
+[my_first_app.py](https://github.com/thaisbendixen/pyladies_streamlit_workshop/blob/main/streamlit_playground/my_first_app.py)
 file and rerun your app on the browser to see your most current changes.
 
 To add functionalities to your streamlit app please refer to the [streamlit documentation](https://docs.streamlit.io/).

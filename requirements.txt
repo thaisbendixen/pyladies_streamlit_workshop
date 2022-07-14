@@ -4,8 +4,8 @@ opencv-python
 numpy
 streamlit==1.10.0
 matplotlib==3.4.3
-# tensorflow
-tensorflow-metal==0.5.0
-tensorflow_datasets==4.6.0
-tensorflow-macos==2.9.2
+tensorflow
+# tensorflow-metal==0.5.0
+# tensorflow_datasets==4.6.0
+# tensorflow-macos==2.9.2
 streamlit-drawable-canvas==0.9.1
