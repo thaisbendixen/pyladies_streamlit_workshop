@@ -1,6 +1,6 @@
 # for M1 users install tensorflow-macos, tensorflow-metal and tensorflow_datasets instead of tensorflow
 
-opencv-python
+opencv-python-headless
 numpy
 streamlit==1.10.0
 matplotlib==3.4.3
