@@ -1,9 +1,9 @@
 This workshop is (stream)LIT! 🔥
 =====
 
-This repository was created to accompany a Pyladies workshop. This repository serves
-as a playground to learn how to use Streamlit to build web apps. Please find the complementary
-[presentation here](https://docs.python.org/3/library/venv.html#creating-virtual-environments).
+This repository was created to accompany a [Pyladies](https://berlin.pyladies.com/) workshop. It serves
+as a playground to learn how to use [streamlit](https://streamlit.io/) to build web apps. 
+Please find the complementary [presentation here](https://docs.google.com/presentation/d/1yj1qCiDyQunhgzqnaa_cXDTogXCBYdUy_nRmmxwdr9A/edit#slide=id.g13b08c34cdd_0_6).
 
 ## Requirements
 
@@ -49,25 +49,14 @@ The above command will open a window in your browser with your web app. You can 
 [my_first_app.py](https://github.com/thaisbendixen/pyladies_streamlit_workshop/blob/main/my_first_app.py)
 file and rerun your app on the browser to see your most current changes.
 
-# 🤖 Digit classification app
-
-After you have explored streamlit for this workshop we prepared a machine learning project 
-that classifies handwritten digits in a web app. See example here. We provide the solution here. If you are new
-to machine learning we recommend looking at the [google colab file](https://github.com/thaisbendixen/pyladies_streamlit_workshop/blob/main/handwritten_number_classification/digit_classifier_model/Handwiritten_digit_classification_model.ipynb).
-
-To create and train machine learning model run:
-```bash
-python handwritten_number_classification/digit_classifier_model/digit_classifier_model.py 
-```
-
-Run streamlit app:
-```bash
-streamlit run handwritten_number_classification/digit_classification_app.py
-```
+To add functionalities to your streamlit app please refer to the [streamlit documentation](https://docs.streamlit.io/).
 
 # Resources
 
 A lot of this code is recycled from the following resources and was combined to create this workshop:
 
--
-
+- [Streamlit theme showcasing](https://github.com/streamlit/theming-showcase)
+- [End-to-End Handwritten digits detection project using Streamlit](https://medium.com/@puspakmeher3/end-to-end-handwritten-digits-detection-project-using-streamlit-1e81b906f524)
+- [Sketched Number Prediction App Using Streamlit](https://medium.com/datev-techblog/sketched-number-prediction-app-using-streamlit-43760861e6d5)
+- [But what is a neural network?](https://www.youtube.com/watch?v=aircAruvnKk&t=1007s)
+- [But what is a neural network?](https://www.youtube.com/watch?v=aircAruvnKk&t=1007s)
