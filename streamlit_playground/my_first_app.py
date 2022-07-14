@@ -1,0 +1,1 @@
+# recommendation: split your screen with one vscode window and a browser window

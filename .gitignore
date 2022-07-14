@@ -1,2 +1,3 @@
 .pytest_cache
 .DS_Store
+streamlit_playground/solution_basic_streamlit_commands.py
