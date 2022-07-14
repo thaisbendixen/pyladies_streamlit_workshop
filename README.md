@@ -51,6 +51,22 @@ file and rerun your app on the browser to see your most current changes.
 
 To add functionalities to your streamlit app please refer to the [streamlit documentation](https://docs.streamlit.io/).
 
+# 🤖 Digit classification app
+
+After you have explored streamlit for this workshop we prepared a machine learning project 
+that classifies handwritten digits in a web app. See example here. We provide the solution here. If you are new
+to machine learning we recommend looking at the [google colab file](https://github.com/thaisbendixen/pyladies_streamlit_workshop/blob/main/handwritten_number_classification/digit_classifier_model/notebook_digit_classifier_model.ipynb).
+
+To create and train machine learning model run:
+```bash
+python handwritten_number_classification/digit_classifier_model/digit_classifier_model.py 
+```
+
+Run streamlit app:
+```bash
+streamlit run handwritten_number_classification/digit_classification_app.py
+```
+
 # Resources
 
 A lot of this code is recycled from the following resources and was combined to create this workshop:
