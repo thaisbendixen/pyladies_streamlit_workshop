@@ -5,7 +5,6 @@ from tensorflow.keras.models import load_model
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas # https://github.com/andfanilo/streamlit-drawable-canvas
 
-model = load_model('handwritten_number_classification/digit_classifier_model/digit_classifier.model')
 st.markdown('<style>body{color: White; background-color: DarkSlateGrey}</style>', unsafe_allow_html=True)
 
 st.title('My Digit Recognizer')
@@ -33,6 +32,7 @@ if canvas_result.image_data is not None:
     st.image(rescaled)
 
 if st.button('Predict'):
+    model = load_model('handwritten_number_classification/digit_classifier_model/digit_classifier.model')
     st.balloons()
     test_x = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     val = model.predict(test_x.reshape(1, 28, 28))
